@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.head{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 80px;
+}
+.logo{
+    font-size: 35px;
+    font-weight: 600;
+    margin: 16px 0 0 17px;
+}
+.nav-ul{
+    display: inline-flex;
+    margin: 30px 0 0 39px
+}
+.nav-ul li {
+    text-decoration: none;
+    margin: 0 26px 0 0;
+    display: block;
+}
+.search{
+    margin: 27px 0 0 213px;
+}
+.login{
+  margin: 26px 0 0 24px;
+  color: white;
+  text-decoration: none;
+}
+
+input[type=text], input[type=password] ,input[type=email]{
+    width: 34%;
+    padding: 12px 24px;
+    margin: 14px 0 -14px 380px;
+    display: block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  
+  .butn{
+    background-color: #0a0a0a;
+    color: white;
+    padding: 14px 20px;
+    margin: 58px 379px;
+    border: none;
+    cursor: pointer;
+    width: 34%;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+    .container {
+    padding: 16px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  .tit{
+    text-align: center;
+    margin-top: 68px;
+  }
+  .uname{
+    display: inline-block;
+    margin: 32px 0px -17px 381px;
+    font-weight: lighter;
+  }
+  .sign a{
+    color: black;
+    font-weight: 600;
+    font-size: 17px;
+    margin: 0 0 0 518px;
+    text-decoration: none;
+  }
